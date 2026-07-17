@@ -182,7 +182,7 @@ export const experiences: Experience[] = [
   {
     company: 'CodeAstu Technologies',
     role: 'Web Development Intern',
-    duration: 'Jul 2022 – Aug 2022',
+    duration: 'Jul 2023 – Aug 2023',
     location: 'Pune, India',
     type: 'Frontend Development',
     tech: ['Bootstrap', 'Tailwind CSS', 'JavaScript', 'Apache Tomcat'],
@@ -201,9 +201,9 @@ export const education: Education[] = [
   {
     institution: 'MIT Academy of Engineering',
     degree: 'B.Tech in Computer Engineering',
-    duration: '2022 – 2026',
+    duration: '2023 – 2026',
     grade: 'CGPA: 9.19',
-    location: 'Alandi, Pune',
+    location: 'Pune, Pune',
     highlights: [
       'Specialized in backend engineering and distributed systems',
       'Won Amdocs AI Hackathon during final year',
@@ -211,22 +211,22 @@ export const education: Education[] = [
     ],
   },
   {
-    institution: 'Government Polytechnic Pune',
+    institution: 'Cusrow Wadia Institute of Technology',
     degree: 'Diploma in Computer Engineering',
-    duration: '2019 – 2022',
-    grade: '93.09%',
+    duration: '2020 – 2023',
+    grade: '88.47%',
     location: 'Pune, India',
     highlights: [
-      'Secured distinction with 93.09% aggregate',
+      'Secured distinction with 88.47% aggregate',
       'Built foundational skills in programming and system design',
     ],
   },
   {
-    institution: 'Z.P. High School',
+    institution: 'St. Felix High School',
     degree: 'SSC (Secondary School Certificate)',
-    duration: '2018 – 2019',
-    grade: '90.60%',
-    location: 'Maharashtra, India',
+    duration: '2008 – 2020',
+    grade: '87.80%',
+    location: 'Pune, India',
   },
 ];
 

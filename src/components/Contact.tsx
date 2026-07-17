@@ -187,18 +187,18 @@ const Contact = () => {
 
               {/* Location */}
               <a
-                href="https://maps.google.com/?q=Pune,Maharashtra,India"
+                href="https://maps.google.com/?q=Pune,Pune,India"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group text-text-secondary hover:text-accent-blue transition-colors focus:outline-none focus:ring-1 focus:ring-accent-blue/30 rounded p-1"
-                aria-label="Location Pune, Maharashtra, India"
+                aria-label="Location Pune, Pune, India"
               >
                 <div className="w-10 h-10 rounded-lg bg-accent-blue/10 border border-accent-blue/15 flex items-center justify-center text-accent-blue group-hover:scale-110 group-hover:shadow-[0_0_12px_rgba(56,189,248,0.3)] transition-all">
                   <FiMapPin size={18} />
                 </div>
                 <div>
                   <p className="text-xs text-text-muted uppercase tracking-wider">Location</p>
-                  <p className="text-sm font-medium">Pune, Maharashtra, India</p>
+                  <p className="text-sm font-medium">Pune, Pune, India</p>
                 </div>
               </a>
 
