@@ -351,17 +351,25 @@ export const projects: Project[] = [
     image: '/projects/wecare.png',
   },
   {
-    title: 'Riya Job Radar',
-    tagline: 'Intelligent Job Search Aggregation Engine',
-    problem: 'Job seekers waste hours manually browsing multiple portals, with no way to filter, track, or compare opportunities across platforms in a unified interface.',
-    solution: 'Created a job aggregation dashboard that scrapes listings from multiple sources, applies intelligent filters (tech stack, location, experience), and provides application tracking with analytics.',
-    impact: 'Consolidated job search across platforms into a single dashboard, saving users an estimated 5+ hours per week in their job hunt.',
-    tech: ['React', 'TypeScript', 'Python', 'FastAPI', 'PostgreSQL', 'Tailwind CSS'],
-    features: [
-      'Multi-platform job aggregation',
-      'Smart filtering by tech stack, location, and seniority',
-      'Application tracking dashboard with status updates',
-      'Salary insights and company rating integration',
+ title: 'Fake News Detection System',
+
+tagline: 'AI-Powered Fake News Detection Using Machine Learning',
+
+problem: 'The rapid spread of fake news and misinformation across online platforms makes it difficult for users to identify trustworthy information, leading to confusion and the spread of false content.',
+
+solution: 'Built a machine learning-powered web application that analyzes news articles using Natural Language Processing (NLP) and predicts whether the content is real or fake using TF-IDF vectorization and Logistic Regression.',
+
+impact: 'Achieved 97.67% prediction accuracy, providing users with a fast and reliable way to verify news articles while helping reduce the spread of misinformation.',
+
+tech: ['Python', 'Flask', 'Scikit-learn', 'NLTK', 'Machine Learning', 'HTML/CSS'],
+
+features: [
+  'Real-time fake news prediction',
+  'Natural Language Processing (NLP)',
+  'TF-IDF text vectorization',
+  'Logistic Regression classification',
+  'Interactive web-based interface',
+  'High accuracy news verification'
     ],
     github: 'https://github.com/riyagarasangi/',
     live: '#',
@@ -419,7 +427,15 @@ export const certifications: Certification[] = [
     icon: '🎓',
     link: '#',
   },
+  {
+    title: 'CCNA',
+    issuer: 'Cisco',
+    date: '2024',
+    icon: '📡',
+    link: '#',
+  },
 ];
+
 
 // ═══════════════════════════════════════════════════════════
 //  STATS

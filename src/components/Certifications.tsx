@@ -25,7 +25,7 @@ const Certifications = () => {
           </motion.h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-6 mx-auto">
           {certifications.map((cert, i) => (
             <motion.div
               key={cert.title}
